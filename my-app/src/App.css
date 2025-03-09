@@ -46,9 +46,9 @@
 button {
   padding: 10px 20px;
   margin: 5px;
-  border: 2px solid #ccc;
+  border: 2px solid #007bff;
   border-radius: 4px;
-  background-color: orangered;
+  background-color: rgba(11, 61, 226, 0.788);
   cursor: pointer;
   font-size: 16px;
   transition: border-color 0.3s ease;
@@ -62,9 +62,9 @@ button {
 button {
   padding: 10px 20px;
   margin: 5px;
-  border: 2px solid #ccc;
+  border: 2px solid #1ddb0c;
   border-radius: 4px;
-  background-color: orangered;
+  background-color: rgba(20, 219, 79, 0.212);
   cursor: pointer;
   font-size: 16px;
   transition: border-color 0.3s ease;
@@ -74,4 +74,20 @@ button {
 .active-tab {
   border-color: #007bff; /* Blue border for active tab */
   font-weight: bold;
+}
+
+/* Style for list of posts*/
+ul.post-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+ul.post-list .post-item {
+  border-bottom: 1px solid #ccc; /* Light grey border */
+  padding: 10px 0; /* Optional: adds some space around the content */
+}
+
+ul.post-list .post-item:last-child {
+  border-bottom: none; /* Remove border for the last item */
 }
