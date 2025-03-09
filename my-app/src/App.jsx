@@ -68,19 +68,19 @@ function App() {
 
   const content = {
     tab1: [<button 
-            className={selectedTable === "users" ? "active-tab" : ""}
+            className={`table-button ${selectedTable === "users" ? "active-tab" : ""}`}
             onClick={() => setSelectedTable("users")}
             >Users
           </button>,
           
           <button 
-            className={selectedTable === "posts" ? "active-tab" : ""}
+            className={`table-button ${selectedTable === "posts" ? "active-tab" : ""}`}
             onClick={() => setSelectedTable("posts")}
             >Posts
           </button>,
           
           <button 
-            className={selectedTable === "follows" ? "active-tab" : ""}
+            className={`table-button ${selectedTable === "follows" ? "active-tab" : ""}`}
             onClick={() => setSelectedTable("follows")}
             >Follows
           </button>
