@@ -19,7 +19,7 @@ function App() {
 
     try {
         const response = await fetch(`http://54.147.244.63:8000/api/user/${username}/${checkInfo}`);
-        console.log(`Fetching: http://54.147.244.63:8000/api/user/${username}/${checkInfo}`);
+        console.log(`Fetching: http://54.147.244.63:8000/api/user/${username}/${checkInfo}`); 
         const data = await response.json();
         console.log(`API Response: `, data);
         if (!response.ok) {
