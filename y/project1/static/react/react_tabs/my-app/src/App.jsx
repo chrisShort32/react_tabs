@@ -1,3 +1,6 @@
+// Group 3 Midterm Frontend Application
+// Authors: Chris Short, Natalie Zettles, Sauharda Shrestha
+
 import React, { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
