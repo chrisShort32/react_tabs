@@ -154,6 +154,8 @@ CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:5173',
     'http://localhost:8081',
     'http://54.147.244.63:8081',
+    'http://192.168.0.64:19006',
+    'http://localhost:19006',
 ]
 
 REST_FRAMEWORK = {
